@@ -36,7 +36,7 @@
 	</update>
 	
 	 <updateservers>
-        <server type="extension" priority="1" name="Extension Update Site">https://github.com/KentaiP/digitaledobunko/edobunko.xml</server>
+        <server type="extension" priority="1" name="Extension Update Site">https://github.com/KentaiP/digitaledobunko/master/edobunko.xml</server>
     </updateservers>
  
 	<!-- Site Main File Copy Section -->
