@@ -34,6 +34,10 @@
 			<schemapath type="mysql">sql/updates/mysql</schemapath>
 		</schemas>
 	</update>
+	
+	 <updateservers>
+        <server type="extension" priority="1" name="Extension Update Site">https://github.com/KentaiP/digitaledobunko/edobunko.xml</server>
+    </updateservers>
  
 	<!-- Site Main File Copy Section -->
 	<!-- Note the folder attribute: This attribute describes the folder
