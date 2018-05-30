@@ -10,7 +10,7 @@
 	<copyright>Koray Birenheide</copyright>
 	<license>-</license>
 	<!--  The version string is recorded in the components table -->
-	<version>0.4.4</version>
+	<version>0.4.5</version>
 	<!-- The description is optional and defaults to the name -->
 	<description>COM_EDOBUNKO_DESCRIPTION</description>
  
@@ -34,6 +34,17 @@
 			<schemapath type="mysql">sql/updates/mysql</schemapath>
 		</schemas>
 	</update>
+	
+	<updates>
+		<update>
+			<name>Edobunko</name>
+			<description>Edobunko Updateserver Test</description>
+			<element>com_edobunko</element>
+			<type>component</type>
+			<version>0.4.5</version>
+			<targetplatform name="joomla" version="3.[23456789]" />
+		</update>
+	<updates>
 	
 	 <updateservers>
         <server type="extension" priority="1" name="Extension Update Site">https://raw.githubusercontent.com/KentaiP/digitaledobunko/master/edobunko.xml</server>
