@@ -3,7 +3,7 @@
 defined('_JEXEC') or die('Restricted access');
  
 /**
- * Script file of HelloWorld component.
+ * Script file of EdoBunko component.
  *
  * The name of this class is dependent on the component being installed.
  * The class name should have the component's name, directly followed by

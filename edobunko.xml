@@ -10,7 +10,7 @@
 	<copyright>Koray Birenheide</copyright>
 	<license>-</license>
 	<!--  The version string is recorded in the components table -->
-	<version>0.4.3</version>
+	<version>0.4.4</version>
 	<!-- The description is optional and defaults to the name -->
 	<description>COM_EDOBUNKO_DESCRIPTION</description>
  
@@ -36,7 +36,7 @@
 	</update>
 	
 	 <updateservers>
-        <server type="extension" priority="1" name="Extension Update Site">https://github.com/KentaiP/digitaledobunko/raw/master/edobunko.xml</server>
+        <server type="extension" priority="1" name="Extension Update Site">https://raw.githubusercontent.com/KentaiP/digitaledobunko/master/edobunko.xml</server>
     </updateservers>
  
 	<!-- Site Main File Copy Section -->
