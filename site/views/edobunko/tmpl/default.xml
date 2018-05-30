@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EDOBUNKO_EDOBUNKO_VIEW_DEFAULT_TITLE">
+		<document>COM_EDOBUNKO_EDOBUNKO_VIEW_DEFAULT_DESC</document>
+	</layout>
+		<fields name="request"
+				addfieldpath="/administrator/components/com_edobunko/models/fields">		
+		
+		</fields>
+</metadata>

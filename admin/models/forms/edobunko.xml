@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form				
+addrulepath="/administrator/components/com_edobunko/models/rules"
+>
+	<fieldset				
+				name="details"				
+				label="COM_EDOBUNKO_EDOBUNKO_DETAILS"	
+			>
+		<field
+				name="id"
+				type="hidden"
+				/>
+		<field
+				name="title"
+				type="text"
+				label="COM_EDOBUNKO_EDOBUNKO_TITLE_LABEL"
+				description="COM_EDOBUNKO_EDOBUNKO_TITLE_DESC"
+				size="40"
+				class="inputbox"			
+							
+				required="true"
+				default=""
+				/>
+		<field
+				name="location"
+				type="text"
+				label="COM_EDOBUNKO_EDOBUNKO_LOCATION_LABEL"
+				description="COM_EDOBUNKO_EDOBUNKO_LOCATION_DESC"
+				size="40"
+				class="inputbox"
+				default="images/"
+				/>
+		<field				
+				name="catid"				
+				type="category"				
+				extension="com_edobunko"				
+				class="inputbox"				
+				default=""				
+				label="COM_EDOBUNKO_EDOBUNKO_FIELD_CATID_LABEL"				
+				description="COM_EDOBUNKO_EDOBUNKO_FIELD_CATID_DESC"				
+				required="true"		
+				>			
+				
+			<option value="0">JOPTION_SELECT_CATEGORY</option>		
+		</field>
+		
+	</fieldset>
+	
+	<fields name="params">		
+		<fieldset				
+					name="params"				
+					label="JGLOBAL_FIELDSET_DISPLAY_OPTIONS"		
+				>			
+					<field					
+								name="show_category"					
+								type="list"					
+								label="COM_EDOBUNKO_EDOBUNKO_FIELD_SHOW_CATEGORY_LABEL"				
+								description="COM_EDOBUNKO_EDOBUNKO_FIELD_SHOW_CATEGORY_DESC"			
+								default=""			
+							>				
+							<option value="">JGLOBAL_USE_GLOBAL</option>				
+							<option value="0">JHIDE</option>				
+							<option value="1">JSHOW</option>			
+					</field>		
+		</fieldset>	
+	</fields>
+	<fieldset			
+			name="accesscontrol"			
+			label="COM_EDOBUNKO_FIELDSET_RULES"	
+		>    	
+		<field				
+			name="asset_id"				
+			type="hidden"				
+			filter="unset"				
+		/>    	
+		<field				
+				name="rules"				
+				type="rules"				
+				label="COM_EDOBUNKO_FIELD_RULES_LABEL"				
+				filter="rules"				
+								
+				class="inputbox"				
+				component="com_edobunko"				
+				section="document"				
+			/>    
+	</fieldset>
+</form>

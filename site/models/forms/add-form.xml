@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form
+    addrulepath="/administrator/components/com_edobunko/models/rules"
+    >
+    <fieldset
+				name="search"
+				label="COM_EDOBUNKO_SEARCH_DETAILS"
+	>
+		<field
+				name="searchfield"
+				type="text"
+				label="COM_EDOBUNKO_SEARCH_SEARCHINPUT"
+				description="COM_EDOBUNKO_SEARCH_SEARCHINPUT_DESC"
+				size="80"
+				class="inputbox"
+				validate="greeting"
+				required="true"
+				default=""
+				/>
+
+    </fieldset>
+</form>

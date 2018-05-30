@@ -1,0 +1,1 @@
+ALTER TABLE `#__edobunko` ADD `params` VARCHAR(1024)  NOT NULL DEFAULT '';

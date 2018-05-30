@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EDOBUNKO_EDOCUMENTVIEWER_VIEW_DEFAULT_TITLE">
+		<document>COM_EDOBUNKO_EDOCUMENTVIEWER_VIEW_DEFAULT_DESC</document>
+		
+	</layout>	
+
+	<!-- Add fields to the request variables for the layout. -->
+	<fields name="request">
+		<fieldset name="request"
+			addfieldpath="/administrator/components/com_edobunko/models/fields">
+
+			<field name="title" 
+				type="sql"
+				label="COM_EDOBUNKO_FIELD_SELECTDOCUMENT_LABLE"
+				default="1"
+				query="SELECT id, title FROM #__edobunko"
+				key_field="id"
+				description="COM_EDOBUNKO_FIELD_SELECTDOCUMENT_DESC"
+			/>
+		</fieldset>
+	</fields>
+</metadata>

@@ -1,0 +1,1 @@
+ALTER TABLE `#__edobunko` ADD `catid` INT(11) NOT NULL DEFAULT '0';

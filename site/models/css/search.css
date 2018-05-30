@@ -1,0 +1,20 @@
+.resulttitlecard
+{
+	font-weight: 600;
+}
+
+.results table
+{
+	width: 100%;
+}
+
+.results table td
+{
+	padding: 5px 5px 5px 5px;
+	border: 1px solid black;
+}
+
+.result td
+{
+
+}
